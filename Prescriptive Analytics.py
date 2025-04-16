@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("crop_recommendation.csv") 
+df = pd.read_csv("file.csv") 
 from sklearn.cluster import KMeans
 
 optimal_clusters = 4  
