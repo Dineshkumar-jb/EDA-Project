@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import ruptures as rpt
 
-file_path = "crop_recommendation.csv" 
+file_path = "file.csv" 
 df = pd.read_csv(file_path)
 
 df = df.sort_values(by="Crop_Year")
