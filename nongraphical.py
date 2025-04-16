@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("crop_recommendation.csv")  
+df = pd.read_csv("file.csv")  
 
 def calculate_statistics(data):
     sorted_data = sorted(data)
