@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("crop_recommendation.csv") 
+df = pd.read_csv("file.csv") 
 features = ["Annual_Rainfall", "Fertilizer", "Pesticide", "Yield", "Area", "Production"]
 df_features = df[features]
 
