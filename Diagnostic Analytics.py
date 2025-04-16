@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-df = pd.read_csv("crop_recommendation.csv")
+df = pd.read_csv("file.csv")
 correlation_matrix = df[['Annual_Rainfall', 'Fertilizer', 'Pesticide', 'Yield']].corr()
 
 plt.figure(figsize=(8, 6))
