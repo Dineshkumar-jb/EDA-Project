@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from statsmodels.tsa.seasonal import seasonal_decompose
 
-df = pd.read_csv("crop_recommendation.csv")
+df = pd.read_csv("file.csv")
 
 df["Crop_Year"] = pd.to_datetime(df["Crop_Year"], format="%Y")
 
