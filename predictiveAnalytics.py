@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("crop_recommendation.csv") 
+df = pd.read_csv("file.csv") 
 
 plt.figure(figsize=(12, 6))
 sns.stripplot(x="Crop", y="Fertilizer", data=df, hue="Crop", palette="Set2", jitter=True, size=4, dodge=True)
