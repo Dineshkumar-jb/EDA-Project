@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("crop_recommendation.csv")  
+df = pd.read_csv("file.csv")  
 
 print("Dataset Overview:")
 print(df.info())
