@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-df = pd.read_csv("crop_recommendation.csv") 
+df = pd.read_csv("file.csv") 
 
 features = ["Annual_Rainfall", "Fertilizer", "Pesticide", "Yield", "Area", "Production"]  
 df_features = df[features]
