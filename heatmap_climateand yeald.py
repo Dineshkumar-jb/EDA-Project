@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("crop_recommendation.csv")
+df = pd.read_csv("file.csv")
 climate_features = ["Annual_Rainfall", "Fertilizer", "Pesticide", "Yield", "Area", "Production"]
 df_climate = df[climate_features]
 correlation_matrix = df_climate.corr()
