@@ -5,7 +5,7 @@ import seaborn as sns
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv("crop_recommendation.csv")
+df = pd.read_csv("file.csv")
 
 features = ["Annual_Rainfall", "Fertilizer", "Pesticide", "Area"]
 X = df[features]
